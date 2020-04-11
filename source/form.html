@@ -1,0 +1,1255 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Погнали</title>
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <header class="page-header page-header--minor">
+      <div class="main-menu main-menu--opened container">
+        <a href="index.html" class="page-header__logo logo">
+          <div class="main-menu__img main-menu__img--white">
+            <img class="logo__mobile" src="img/logo-mobile-white@1x.png" alt="Логотип Погнали"
+            width="100px" height="19px">
+            <img class="logo__tablet" src="img/logo-tablet-white@1x.png" alt="Логотип Погнали"
+            width="164px" height="42px">
+            <img class="logo__desktop" src="img/logo-desktop-white@1x.png" alt="Логотип Погнали"
+            width="198px" height="52px">
+          </div>
+          <div class="main-menu__img main-menu__img--blue">
+            <img class="logo__mobile" src="img/logo-mobile-blue@1x.png" alt="Логотип Погнали"
+            width="100px" height="19px">
+            <img class="logo__tablet" src="img/logo-tablet-blue@1x.png" alt="Логотип Погнали"
+            width="164px" height="42px">
+            <img class="logo__desktop" src="img/logo-desktop-blue@1x.png" alt="Логотип Погнали"
+            width="198px" height="52px">
+          </div>
+        </a>
+        <button class="main-menu__switch main-menu__switch--nojs" type="button" aria-label="Открыть меню">
+          <span class="visually-hidden">Открыть/Закрыть меню</span>
+        </button>
+        <div class="main-menu__contacts contacts contacts--tablet">
+          <div class="contacts__item">
+            <button class="contacts__button contacts__button--text" type="button">
+              Авторизация
+            </button>
+          </div>
+        </div>
+        <div class="main-menu__popup">
+          <nav class="main-menu__site-nav site-nav">
+            <ul class="site-nav__list">
+              <li class="site-nav__item">
+                <a class="site-nav__link" href="#">
+                  О сервисе
+                </a>
+              </li>
+              <li class="site-nav__item">
+                <a class="site-nav__link" href="form.html">
+                  Направления
+                </a>
+              </li>
+              <li class="site-nav__item">
+                <a class="site-nav__link" href="catalog.html">
+                  Попутчики
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="main-menu__contacts contacts">
+            <ul class="contacts__list">
+              <li class="contacts__item contacts__item--authorization">
+                <button class="contacts__button contacts__button--text" type="button">
+                  Авторизация
+                </button>
+              </li>
+              <li class="contacts__item contacts__item--phone">
+                <div class="contacts__circle">
+                  <svg class="contacts__circle-svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="18" height="18"
+                  viewBox="0 0 36 36" style="enable-background:new 0 0 36 36;" xml:space="preserve">
+                  <path class="st0" d="M18,0C11.6,0,5.2,1.1,2.8,3.4C0.9,5.3,0.2,8.7,0,10.8c0,0,0,0.2,0,0.3c0,0.8,0.7,1.5,1.5,1.5
+                  c0.1,0,3.7-0.3,5.9-0.5c0.1,0,0.1,0,0.2,0c0.8,0,1.5-0.7,1.5-1.5l0-3C9,6.7,9.7,6,10.7,6h14.7C26.2,6,27,6.7,27,7.7l0,3
+                  c0,0.8,0.7,1.5,1.5,1.5c0.1,0,0.1,0,0.2,0c2.2,0.2,5.8,0.5,5.9,0.5c0.8,0,1.5-0.7,1.5-1.5c0-0.1,0-0.3,0-0.3
+                  c-0.2-2.1-0.9-5.5-2.8-7.4C30.8,1.1,24.4,0,18,0z M18,19.5c-1.7,0-3,1.3-3,3s1.3,3,3,3c1.7,0,3-1.3,3-3S19.7,19.5,18,19.5z
+                  M15.7,12.7v-1.9c0-1-0.8-1.9-1.9-1.9S12,9.8,12,10.9v1.9L1.9,23.6c-0.7,0.7-1.1,1.6-1.1,2.7v3c0,1.7,1.3,3,3,3h0.8v1.9
+                  c0,1,0.8,1.9,1.9,1.9s1.9-0.8,1.9-1.9v-1.9h19.5v1.9c0,1,0.8,1.9,1.9,1.9c1,0,1.9-0.8,1.9-1.9v-1.9h0.8c1.7,0,3-1.3,3-3v-3
+                  c0-1.1-0.4-2-1.1-2.7L24,12.7v-1.9c0-1-0.8-1.9-1.9-1.9s-1.9,0.8-1.9,1.9v1.9H15.7z M18,16.5c3.3,0,6,2.7,6,6c0,3.3-2.7,6-6,6
+                  c-3.3,0-6-2.7-6-6C12,19.2,14.7,16.5,18,16.5z"/>
+                  </svg>
+                </div>
+                <a class="contacts__text contacts__text--blue" href="tel:88005558628" aria-label="Телефон">
+                  8 800 555-86-28
+                </a>
+              </li>
+              <li class="contacts__item contacts__item--email">
+                <div class="contacts__circle">
+                  <svg class="contacts__circle-svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="18" height="13"
+                  viewBox="0 0 36 26" style="enable-background:new 0 0 36 26;" xml:space="preserve">
+                  <path class="st0" d="M0,23c0,1.6,1.3,3,3,3h30c1.7,0,3-1.3,3-3V3c0-1.6-1.3-3-3-3H3C1.3,0,0,1.3,0,3L0,23L0,23z M11,13L4.2,6.2
+                  c-0.6-0.6-0.6-1.5,0-2c0.6-0.6,1.5-0.6,2.1,0l11,10.9c0.4,0.4,1.2,0.4,1.6,0l11-10.9c0.6-0.6,1.5-0.6,2.1,0c0.6,0.6,0.6,1.5,0,2
+                  L25,13l6.9,6.8c0.6,0.6,0.6,1.5,0,2c-0.6,0.6-1.5,0.6-2.1,0l-6.9-6.8c0,0-2.1,2.2-2.5,2.5c-0.6,0.6-1.4,1-2.4,1
+                  c-0.9,0-1.8-0.4-2.4-1c-0.4-0.4-2.5-2.5-2.5-2.5l-6.9,6.8c-0.6,0.6-1.5,0.6-2.1,0c-0.6-0.6-0.6-1.5,0-2L11,13z"/>
+                  </svg>
+                </div>
+                <a class="contacts__text contacts__text--blue" href="mailto:mail@htmlacademy.ru"
+                aria-label="Электронная почта">
+                  mail@htmlacademy.ru
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="main-menu__footer">
+            <ul class="social-network">
+              <li class="social-network__item">
+                <a class="social-network__link" href="https://ru-ru.facebook.com" aria-label="Погнали в Фейсбуке">
+                  <svg class="social-network__img social-network__img--facebook" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="11" height="21"
+                  viewBox="0 0 11 21" style="enable-background:new 0 0 11 21;" xml:space="preserve">
+                  <g>
+                  <path d="M7.8,21H2.2v-9.8H0V6.4h2.1C2,4.2,2.4,2.6,3.4,1.5C4.2,0.6,5.5,0.1,7.1,0L11,0v4.7H7.9C7.8,4.9,7.7,5.5,7.7,6.4H11v4.8H7.8
+                  V21z M3.4,19.9h3.1v-9.8h3.2V7.5H6.5l0-0.6c0-1.5,0-2.9,0.8-3.4l0.2-0.1h2.3V1.1H7.1C5.9,1.2,4.9,1.6,4.3,2.3 C3.5,3.2,3.2,4.8,3.4,6.9l0.1,0.6H1.2v2.6h2.2V19.9z"/>
+                  </g>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-network__item">
+                <a  class="social-network__link" href="https://vk.com" aria-label="Погнали во Вконтакте">
+                  <svg class="social-network__img social-network__img--vk" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="23" height="12"
+                  viewBox="0 0 30 15.8" style="enable-background:new 0 0 30 15.8;" xml:space="preserve">
+                  <g>
+                  <path d="M23.9,15.8c-0.4,0-1.2-0.1-2.1-0.6c-0.6-0.4-1.2-1-1.8-1.5c-0.4-0.4-1.2-1.2-1.4-1.2c-0.3,0.1-0.5,0.9-0.5,1.6
+                  c0,0.1,0,0.8-0.5,1.2c-0.4,0.4-1.1,0.5-1.2,0.5l-1.9,0c-1,0-4.4-0.2-7.4-3c-3.7-3.4-6.8-9.8-7-10.1C0,2.2-0.1,1.5,0.3,1.1
+                  c0.4-0.4,1.1-0.5,1.4-0.5l4.1,0l0.1,0c0.1,0,0.6,0.1,1,0.3c0.4,0.2,0.6,0.7,0.6,0.7c0,0,0.6,1.4,1.5,2.7c1.3,2,1.9,2.5,2.1,2.6
+                  c0.2-0.4,0.3-1.7,0.2-2.9c0-0.5-0.1-1.1-0.3-1.3c-0.1-0.1-0.4-0.3-0.8-0.3L9.5,1.8c-0.1-0.7,0.6-1.2,1.1-1.4
+                  C11.3,0.1,12.4,0,13.7,0l0.7,0c1.2,0,1.6,0.1,2.1,0.2c1.7,0.4,1.6,1.7,1.6,3.3c0,0.5,0,1,0,1.6c0,0.2,0,0.3,0,0.5
+                  c0,0.4,0,1,0.1,1.3c0.2-0.1,0.9-0.7,2.1-2.5c0.8-1.2,1.4-2.5,1.5-2.8l0,0c0.2-0.4,0.6-0.9,1.6-0.9l4.3,0c0,0,0.2,0,0.4,0
+                  c1,0,1.6,0.3,1.8,0.9c0.3,0.6,0.2,1.7-2.4,4.6c-0.4,0.4-0.7,0.8-1,1.1c-0.6,0.7-1.2,1.4-1.2,1.6C25.4,9,26,9.5,26.6,10
+                  c1.5,1.2,2.5,2.3,3,3.1c0.5,0.8,0.4,1.3,0.3,1.7c-0.4,0.9-1.6,1-1.9,1l-3.8,0C24.1,15.8,24.1,15.8,23.9,15.8z M18.6,10.9
+                  c0.9,0,1.7,0.8,2.5,1.6c0.5,0.5,1,1,1.5,1.3c0.7,0.4,1.3,0.4,1.4,0.4l0.1,0l3.8,0c0.2,0,0.4-0.1,0.5-0.1c0,0,0-0.1-0.1-0.2
+                  c-0.4-0.7-1.4-1.7-2.7-2.7c-1.2-1-1.8-1.5-1.9-2.2c-0.1-0.8,0.5-1.4,1.6-2.7c0.3-0.3,0.6-0.7,1-1.1c1.6-1.8,2-2.6,2.1-3
+                  c-0.2,0-0.6,0-0.7,0l-4.4,0c-0.2,0-0.2,0-0.2,0c-0.2,0.4-0.8,1.8-1.6,3c-1.9,2.8-2.8,3.2-3.4,3.2c-0.2,0-0.4,0-0.6-0.1
+                  c-1-0.6-1-1.8-0.9-2.8c0-0.1,0-0.3,0-0.4c0-0.6,0-1.2,0-1.7c0.1-1.7,0-1.7-0.4-1.8c-0.4-0.1-0.7-0.1-1.9-0.2l-0.7,0
+                  c-0.6,0-1.3,0-1.9,0.1c0.1,0.1,0.2,0.2,0.3,0.3c0.6,0.7,0.6,2,0.6,2.2c0.1,1.6,0.1,3.8-1,4.3c-0.2,0.1-0.4,0.1-0.6,0.1
+                  c-0.9,0-1.9-0.9-3.4-3.3C6.8,3.9,6.1,2.4,6.1,2.3c0,0-0.1-0.1-0.1-0.1C5.9,2.2,5.8,2.1,5.7,2.1l-4,0c0,0,0,0-0.1,0
+                  C2.2,3.3,5,8.7,8.1,11.6c2.7,2.5,5.8,2.6,6.4,2.6l1.9,0c0,0,0.2-0.1,0.3-0.1c0,0,0-0.1,0-0.1c0-0.3,0-2.6,1.6-3
+                  C18.4,10.9,18.5,10.9,18.6,10.9z"/>
+                  </g>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-network__item">
+                <a  class="social-network__link" href="https://www.instagram.com" aria-label="Погнали в Инстаграме">
+                  <svg class="social-network__img social-network__img--instagram" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="18" height="18"
+                  viewBox="0 0 23 23" style="enable-background:new 0 0 23 23;" xml:space="preserve">
+                  <path class="st0" d="M17,1.5c2.5,0,4.5,2,4.5,4.5v11c0,2.5-2,4.5-4.5,4.5H6c-2.5,0-4.5-2-4.5-4.5V6c0-2.5,2-4.5,4.5-4.5L17,1.5
+                  M17,0H6C2.7,0,0,2.7,0,6v11c0,3.3,2.7,6,6,6h11c3.3,0,6-2.7,6-6V6C23,2.7,20.3,0,17,0L17,0z"/>
+                  <path class="st0" d="M11.5,7.1c2.4,0,4.4,2,4.4,4.4c0,2.4-2,4.4-4.4,4.4c-2.4,0-4.4-2-4.4-4.4C7.1,9.1,9.1,7.1,11.5,7.1 M11.5,5.6
+                  c-3.3,0-5.9,2.7-5.9,5.9s2.7,5.9,5.9,5.9s5.9-2.7,5.9-5.9S14.8,5.6,11.5,5.6L11.5,5.6z"/>
+                  <circle class="st0" cx="17.6" cy="5.4" r="1.3"/>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="main-menu__contacts-minor contacts">
+            <ul class="page-main__contacts-list contacts__list contacts__list--row">
+              <li class="contacts__item contacts__button contacts__button--img">
+                <a class="contacts__link" href="tel:88005558628" aria-label="8 800 555-86-28">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="18" height="18" viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+                  <g>
+                  <g id="UrwUhy_1_">
+                  <g>
+                  <path class="st0" d="M12.6,18c-0.3,0-0.5,0-0.8,0c-3.6-0.4-6.2-2.1-8.1-4.3C1.8,11.6,0.3,8.8,0,5c0-0.3,0-0.7,0-1
+                  c0.1-0.7,0.4-1.1,0.8-1.5C1.2,2,2,1.4,2.6,1.3c0.5,0,1.3,0.3,1.6,0.8c0.3,0.4,0.4,1.2,0.6,1.8c0.1,0.6,0.4,1.4,0.4,2
+                  C5,6.8,3.9,7.2,3.5,7.8c1.1,2.8,3,4.8,5.4,6.2c0.6-0.3,1.2-1.4,2-1.4c0.3,0,0.7,0.2,1,0.3c0.3,0.1,0.6,0.2,1,0.4
+                  c0.5,0.2,1.4,0.5,1.7,0.9c0.3,0.4,0.5,1.2,0.4,1.7C14.9,16.7,13.4,17.7,12.6,18z"></path>
+                  </g>
+                  </g>
+                  <path class="st0" d="M9.1,1.1c4.3,0,7.8,3.6,7.8,8H18c0-5-4-9.1-8.9-9.1L9.1,1.1z"></path>
+                  <path class="st0" d="M9.1,6.9V8c0.6,0,1,0.5,1,1.1h1.1C11.2,7.9,10.3,6.9,9.1,6.9z"></path>
+                  <path class="st0" d="M9.1,4.6c2.4,0,4.4,2,4.4,4.5h1.2c0-3.1-2.5-5.7-5.5-5.7V4.6L9.1,4.6z"></path>
+                  </g>
+                  </svg>
+                </a>
+              </li>
+              <li class="contacts__item contacts__button contacts__button--img">
+                <a class="contacts__link" href="mailto:mail@htmlacademy.ru" aria-label="Электронная почта">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="18" height="14" viewBox="0 0 18 14" style="enable-background:new 0 0 18 14;" xml:space="preserve">
+                  <g>
+                  <g>
+                  <g>
+                  <path class="st0" d="M14.9,1.8c1.2-1,0.9-1.8-0.7-1.8H3.7C2.2,0,1.9,0.8,3.1,1.8l3.7,3.1c1.2,1,3.2,1,4.4,0L14.9,1.8z"></path>
+                  </g>
+                  <g>
+                  <path class="st0" d="M11.9,7.1c-1.2,1-2.2,1.8-2.2,1.8c0,0,0,0,0,0C9.6,9,9.5,9,9.4,9c0,0-0.1,0-0.1,0C9.2,9.1,9.1,9.1,9,9.1
+                  c0,0,0,0,0,0c0,0,0,0,0,0l0,0c0,0,0,0,0,0c-0.1,0-0.2,0-0.3-0.1c0,0-0.1,0-0.1,0C8.5,9,8.4,9,8.3,8.9c0,0,0,0,0,0
+                  c0,0-1-0.8-2.2-1.8L2.2,3.8C1,2.8,0,3.3,0,4.8v6.3C0,12.7,1.3,14,2.8,14h12.3c1.6,0,2.8-1.3,2.8-2.8V4.8c0-1.6-1-2-2.2-1
+                  L11.9,7.1z"></path>
+                  </g>
+                  </g>
+                  </g>
+                  </svg>
+                </a>
+              </li>
+              <li class="contacts__item contacts__item--authorization">
+                <button class="contacts__button contacts__button--text" type="button">
+                  Авторизация
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="form-main">
+      <h1 class="form-main__title page-title container">
+        Направления
+      </h1>
+      <section class="my-page container">
+        <form class="my-page__form" action="https://echo.htmlacademy.ru" method="POST">
+          <div class="my-page__level">
+            <div class="level level--big">
+              <svg class="level__circle" width="100" height="100">
+                <circle r="47" cx="50" cy="50"
+                stroke="#ff8d30" stroke-width="3" stroke-dasharray="320 80"
+                stroke-dashoffset="165">
+                </circle>
+              </svg>
+              <p class="level__value level__value--blue">
+                <span class="level__number level__number--blue">80</span>
+                <span class="level__text level__text--gray">level</span>
+              </p>
+            </div>
+          </div>
+          <div class="my-page__photo">
+            <img class="my-page__img" src="img/demin-mobile@2x.jpg"
+            width="100" height="100" alt="Аватарка Пети Демина">
+            <span class="my-page__caption">Фото</span>
+          </div>
+          <button class="my-page__button" type="button">
+            Сменить фото
+          </button>
+          <div class="fieldset my-page__hashtags hashtags">
+            <div class="fieldset__legend fieldset__legend--text">Тэги</div>
+            <textarea class="fieldset__text" name="hashtags" rows="1" cols="1">#бургер #бар #футбол #концерт #крафт</textarea>
+          </div>
+          <div class="fieldset my-page__transport transport">
+            <div class="fieldset__legend">Транспорт</div>
+            <div class="fieldset__transport transport__list">
+              <input class="visually-hidden" type="checkbox" id="plane"
+              name="transport" value="plane" checked>
+              <label class="transport__item" for="plane">
+                <svg class="transport__img--active" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="19"
+                height="21" viewBox="0 0 19 21" style="enable-background:new
+                0 0 19 21;"xml:space="preserve">
+                <path d="M18.9,18.9c-0.1-0.3-3.7-10.1-3.7-10.1c0,0,0,0,0,0c-0.1-0.5,0.1-0.7,0.3-1.1c0,0,2.1-3.5,2.8-4.6c0.7-1.2,0.6-2.3-0.1-2.8
+                c-0.7-0.5-1.7-0.1-2.5,1c-0.8,1.1-3,4.5-3,4.5c-0.3,0.4-0.4,0.7-0.9,0.8c0,0,0,0,0,0C11.7,6.5,1.5,7,1.2,7c-0.3,0-0.7,0.1-1,0.6
+                C-0.2,8.3,0,8.5,0.4,8.6c0,0,8,2.6,8.3,2.7C9,11.3,9,11.5,8.9,11.9c-0.2,0.4-1.4,2.3-1.6,2.6c-0.1,0.2-0.2,0.2-0.4,0.3l-2.8,1
+                c-0.1,0-0.3,0.1-0.4,0.3c0,0-0.2,0.3-0.4,0.6c-0.2,0.3-0.1,0.5,0.2,0.5c0.3,0.1,2.1,0.2,2.1,0.2c0,0,0.3,0.1,0.4,0.1
+                c0.2,0.1,0.4,0.3,0.2,0.6c-0.3,0.6-0.4,1.2-0.2,1.3s0.6-0.2,1-0.7c0.2-0.3,0.4-0.2,0.6,0C7.8,18.6,8,18.8,8,18.8c0,0,0.8,1.6,1,1.9
+                c0.2,0.3,0.4,0.3,0.6,0c0.2-0.3,0.4-0.6,0.4-0.6c0.1-0.1,0.1-0.3,0.1-0.5l-0.3-3.1c0-0.2,0-0.2,0.1-0.5c0.1-0.2,1.4-2.2,1.6-2.5
+                c0.2-0.3,0.4-0.3,0.6-0.1c0.2,0.2,5.7,6.7,5.7,6.7c0.3,0.3,0.5,0.4,0.9-0.2C19.1,19.5,19,19.1,18.9,18.9z"/>
+                </svg>
+              </label>
+              <input class="visually-hidden" type="checkbox" id="ground-transportation"
+              name="transport" value="ground-transportation" checked>
+              <label class="transport__item" for="ground-transportation">
+                <svg class="transport__img--active" version="1.1" id="svg2103" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17"
+                height="21" viewBox="0 0 17 21" style="enable-background:new 0 0 17 21;"
+                xml:space="preserve">
+                <path d="M16.2,3.1c-0.2-1.2-1-1.6-2.1-2.1C13,0.6,10.4,0,8.5,0C6.6,0,4,0.6,2.9,1C1.8,1.5,1.1,1.9,0.8,3.1L0,9.5v8.8h1.4v1.4
+                c0,1.7,2.5,1.7,2.5,0v-1.4h4.5h0h4.7v1.4c0,1.7,2.5,1.7,2.5,0v-1.4H17V9.5L16.2,3.1z M5,1.6h3.4H12c0.7,0,0.7,1,0,1H8.4H5
+                C4.3,2.7,4.3,1.6,5,1.6z M2.7,15.6c-0.6,0-1.2-0.5-1.2-1.2c0-0.7,0.5-1.2,1.2-1.2c0.6,0,1.2,0.5,1.2,1.2C3.8,15,3.3,15.6,2.7,15.6z
+                M8.4,10.2H2.2c-0.6,0-0.7-0.4-0.7-0.9l0.6-4.7c0.1-0.6,0.3-0.9,1-0.9h5.3h5.4c0.7,0,0.9,0.4,1,0.9l0.6,4.7c0.1,0.4-0.1,0.9-0.7,0.9
+                H8.4z M14.3,15.6c-0.6,0-1.2-0.5-1.2-1.2c0-0.7,0.5-1.2,1.2-1.2c0.6,0,1.2,0.5,1.2,1.2C15.5,15,15,15.6,14.3,15.6z"/>
+                </svg>
+              </label>
+              <input class="visually-hidden" type="checkbox" id="bike"
+              name="transport" value="bike">
+              <label class="transport__item" for="bike">
+                <svg class="transport__img" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24"
+                height="21" viewBox="0 0 24 21" style="enable-background:new 0 0 24 21;"
+                xml:space="preserve">
+                <path d="M16,3.6c1,0,1.8-0.8,1.8-1.8S17,0,16,0s-1.8,0.8-1.8,1.8S15,3.6,16,3.6z M19,11c-2.8,0-5,2.3-5,5s2.2,5,5,5s5-2.3,5-5
+                S21.8,11,19,11z M19,19.6c-1.9,0-3.5-1.6-3.5-3.5s1.6-3.5,3.5-3.5s3.5,1.6,3.5,3.5S20.9,19.6,19,19.6z M14.8,8.9H19V7.1h-3.2
+                l-1.9-3.3C13.6,3.3,13.1,3,12.4,3c-0.5,0-0.9,0.2-1.2,0.5L7.5,7.2C7.2,7.5,7,7.9,7,8.4C7,9,7.3,9.6,7.8,9.9l3.3,2v5H13v-6.5
+                l-2.2-1.7l2.3-2.4L14.8,8.9z M5,11c-2.8,0-5,2.3-5,5s2.2,5,5,5s5-2.3,5-5S7.8,11,5,11z M5,19.6c-1.9,0-3.5-1.6-3.5-3.5
+                s1.6-3.5,3.5-3.5s3.5,1.5,3.5,3.5S6.9,19.6,5,19.6z"/>
+                </svg>
+              </label>
+              <input class="visually-hidden" type="checkbox" id="on-foot"
+              name="transport" value="on-foot" checked>
+              <label class="transport__item" for="on-foot">
+                <svg class="transport__img--active" version="1.1" id="Icons_Run" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20"
+                height="21" viewBox="0 0 20 21" style="enable-background:new 0 0 20 21;"
+                xml:space="preserve">
+                <g>
+                <ellipse cx="14.3" cy="2" rx="2.1" ry="2"/>
+                <path d="M19.4,4.6c-0.5-0.2-1.2-0.1-1.4,0.4l-0.9,1.6L13,4.3c-0.2-0.1-0.3-0.1-0.6-0.1H7.9C7.5,4.2,7.2,4.3,7,4.7L5.3,7.6
+                C5,8.1,5.2,8.7,5.7,8.9C5.9,9,6.1,9,6.2,9C6.6,9,7,8.8,7.2,8.5l1.4-2.4h1.6l-4.7,8.1H1.1c-0.6,0-1.1,0.4-1.1,1s0.5,1,1.1,1h5
+                c0.4,0,0.7-0.2,0.9-0.5l1.9-3.2l3,2.6L11.7,20c-0.1,0.5,0.4,1,1,1c0,0,0,0,0.1,0c0.6,0,1-0.4,1.1-0.9l0.3-5.4
+                c0-0.3-0.1-0.6-0.3-0.8l-2.6-2.2l2.7-4.6l3.1,1.8C17.1,9,17.5,9.1,17.7,9c0.3-0.1,0.5-0.2,0.7-0.5L19.9,6C20.2,5.5,20,4.9,19.4,4.6
+                z"/>
+                </g>
+                </svg>
+              </label>
+            </div>
+          </div>
+        </form>
+      </section>
+      <section class="plans">
+        <h2 class="visually-hidden">Планы</h2>
+        <div class="plans__planned planned container">
+          <h3 class="plans__title planned__title">Мои планы:</h3>
+          <ol class="planned__list">
+            <li class="planned__item">
+              <p class="planned__route">Франция, Италия</p>
+              <span class="planned__companions">3 попутчика</span>
+              <span class="planned__date">
+                <time datetime="2020-03-26">26 мар</time>—<time datetime="2020-03-29">29 мар</time>
+              </span>
+              <button class="planned__button" type="button">Изменить</button>
+            </li>
+            <li class="planned__item">
+              <p class="planned__route">Таиланд, Индонезия</p>
+              <span class="planned__companions">1 попутчик</span>
+              <span class="planned__date">
+                <time datetime="2020-07-01">1 июл</time>—<time datetime="2020-07-15">15 июл</time>
+              </span>
+              <button class="planned__button" type="button">Изменить</button>
+            </li>
+          </ol>
+        </div>
+        <div class="plans__add procedure container">
+          <div class="one-row">
+            <h3 class="plans__title procedure__title">Добавить план:</h3>
+            <ul class="procedure__slider slider">
+              <li class="slider__item slider__item--switch1">
+                <button class="slider__button slider__button--active" type="button" aria-label="Первый шаг">
+                  <div class="slider__text">Даты</div>
+                </button>
+              </li>
+              <li class="slider__item slider__item--switch2">
+                <button class="slider__button" type="button" aria-label="Второй шаг">
+                  <div class="slider__text">Маршрут</div>
+                </button>
+              </li>
+              <li class="slider__item slider__item--switch3">
+                <button class="slider__button" type="button" aria-label="Третий шаг">
+                  <div class="slider__text">Развлечения</div>
+                </button>
+              </li>
+            </ul>
+          </div>
+          <form class="procedure__form" action="https://echo.htmlacademy.ru" method="POST">
+            <ol class="procedure__list procedure-steps">
+              <li class="procedure-steps__item">
+                <h4 class="procedure-steps__title">Даты пребывания</h4>
+                <p class="procedure-steps__intro">Укажите предпочтительное количество попутчиков, которых
+                вы хотели бы позвать в поездку и ее предполагаемую длительность.</p>
+                <label class="procedure-steps__label" for="companions-number">
+                  <span>Ищу попутчиков:</span>
+                  <span class="procedure-steps__unit">чел.</span>
+                </label>
+                <div class="procedure-steps__number">
+                  <div class="procedure-steps__sign procedure-steps__sign--minus"></div>
+                  <input class="procedure-steps__input" id="companions-number"
+                  type="text" value="2">
+                  <div class="procedure-steps__sign procedure-steps__sign--plus"></div>
+                </div>
+                <label class="procedure-steps__label procedure-steps__label--duration" for="duration">
+                  <span>Длительность:</span>
+                  <span class="procedure-steps__unit">дн.</span>
+                </label>
+                <div class="procedure-steps__number procedure-steps__number--duration">
+                  <div class="procedure-steps__sign procedure-steps__sign--minus"></div>
+                  <input class="procedure-steps__input" id="duration"
+                  type="text" value="2">
+                  <div class="procedure-steps__sign procedure-steps__sign--plus"></div>
+                </div>
+                <input class="visually-hidden procedure-steps__checkbox" id="with-kids"
+                type="checkbox" checked value="with-kids">
+                <label class="procedure-steps__with-kids" for="with-kids">
+                  Можно с детьми
+                </label>
+                <div class="procedure-steps__calendar calendar">
+                  <ul class="calendar__months">
+                    <li class="calendar__month">
+                      <div class="calendar__item">
+                        <svg  class="calendar__arrow calendar__arrow--left" version="1.1" id="Layer_1"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        x="0px" y="0px" width="9" height="18"
+                        viewBox="0 0 18 34" style="enable-background:new 0 0 18 34;" xml:space="preserve">
+                        <path d="M3.6,17l14-14.4c0.6-0.6,0.6-1.6,0-2.1c-0.6-0.6-1.5-0.6-2.1,0L0.4,15.9c-0.6,0.6-0.6,1.6,0,2.1l15.1,15.5
+                        c0.3,0.3,0.7,0.4,1,0.4s0.8-0.1,1-0.4c0.6-0.6,0.6-1.6,0-2.1L3.6,17z"/>
+                        </svg>
+                        Январь 2020
+                        <svg  class="calendar__arrow calendar__arrow--right"
+                        version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        width="9" height="18"
+                        viewBox="0 0 18 34" style="enable-background:new 0 0 18 34;" xml:space="preserve">
+                        <path d="M14.4,17L0.4,2.6C-0.1,2-0.1,1,0.4,0.4c0.6-0.6,1.5-0.6,2.1,0l15.1,15.5c0.6,0.6,0.6,1.6,0,2.1L2.5,33.6
+                        c-0.3,0.3-0.7,0.4-1,0.4s-0.8-0.1-1-0.4c-0.6-0.6-0.6-1.6,0-2.1L14.4,17z"/>
+                        </svg>
+                      </div>
+                    </li>
+                    <li class="calendar__month">
+                      <div class="calendar__item">
+                        <svg  class="calendar__arrow calendar__arrow--left" version="1.1" id="Layer_1"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        x="0px" y="0px" width="9" height="18"
+                        viewBox="0 0 18 34" style="enable-background:new 0 0 18 34;" xml:space="preserve">
+                        <path d="M3.6,17l14-14.4c0.6-0.6,0.6-1.6,0-2.1c-0.6-0.6-1.5-0.6-2.1,0L0.4,15.9c-0.6,0.6-0.6,1.6,0,2.1l15.1,15.5
+                        c0.3,0.3,0.7,0.4,1,0.4s0.8-0.1,1-0.4c0.6-0.6,0.6-1.6,0-2.1L3.6,17z"/>
+                        </svg>
+                        Февраль 2020
+                        <svg  class="calendar__arrow calendar__arrow--right"
+                        version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        width="9" height="18"
+                        viewBox="0 0 18 34" style="enable-background:new 0 0 18 34;" xml:space="preserve">
+                        <path d="M14.4,17L0.4,2.6C-0.1,2-0.1,1,0.4,0.4c0.6-0.6,1.5-0.6,2.1,0l15.1,15.5c0.6,0.6,0.6,1.6,0,2.1L2.5,33.6
+                        c-0.3,0.3-0.7,0.4-1,0.4s-0.8-0.1-1-0.4c-0.6-0.6-0.6-1.6,0-2.1L14.4,17z"/>
+                        </svg>
+                      </div>
+                    </li>
+                    <li class="calendar__month">
+                      <div class="calendar__item">
+                        <svg  class="calendar__arrow calendar__arrow--left" version="1.1" id="Layer_1"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        x="0px" y="0px" width="9" height="18"
+                        viewBox="0 0 18 34" style="enable-background:new 0 0 18 34;" xml:space="preserve">
+                        <path d="M3.6,17l14-14.4c0.6-0.6,0.6-1.6,0-2.1c-0.6-0.6-1.5-0.6-2.1,0L0.4,15.9c-0.6,0.6-0.6,1.6,0,2.1l15.1,15.5
+                        c0.3,0.3,0.7,0.4,1,0.4s0.8-0.1,1-0.4c0.6-0.6,0.6-1.6,0-2.1L3.6,17z"/>
+                        </svg>
+                        Март 2019
+                        <svg  class="calendar__arrow calendar__arrow--right"
+                        version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        width="9" height="18"
+                        viewBox="0 0 18 34" style="enable-background:new 0 0 18 34;" xml:space="preserve">
+                        <path d="M14.4,17L0.4,2.6C-0.1,2-0.1,1,0.4,0.4c0.6-0.6,1.5-0.6,2.1,0l15.1,15.5c0.6,0.6,0.6,1.6,0,2.1L2.5,33.6
+                        c-0.3,0.3-0.7,0.4-1,0.4s-0.8-0.1-1-0.4c-0.6-0.6-0.6-1.6,0-2.1L14.4,17z"/>
+                        </svg>
+                      </div>
+                    </li>
+                    <li class="calendar__month">
+                      <div class="calendar__item">
+                        <svg  class="calendar__arrow calendar__arrow--left" version="1.1" id="Layer_1"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        x="0px" y="0px" width="9" height="18"
+                        viewBox="0 0 18 34" style="enable-background:new 0 0 18 34;" xml:space="preserve">
+                        <path d="M3.6,17l14-14.4c0.6-0.6,0.6-1.6,0-2.1c-0.6-0.6-1.5-0.6-2.1,0L0.4,15.9c-0.6,0.6-0.6,1.6,0,2.1l15.1,15.5
+                        c0.3,0.3,0.7,0.4,1,0.4s0.8-0.1,1-0.4c0.6-0.6,0.6-1.6,0-2.1L3.6,17z"/>
+                        </svg>
+                        Апрель 2019
+                        <svg  class="calendar__arrow calendar__arrow--right"
+                        version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        width="9" height="18"
+                        viewBox="0 0 18 34" style="enable-background:new 0 0 18 34;" xml:space="preserve">
+                        <path d="M14.4,17L0.4,2.6C-0.1,2-0.1,1,0.4,0.4c0.6-0.6,1.5-0.6,2.1,0l15.1,15.5c0.6,0.6,0.6,1.6,0,2.1L2.5,33.6
+                        c-0.3,0.3-0.7,0.4-1,0.4s-0.8-0.1-1-0.4c-0.6-0.6-0.6-1.6,0-2.1L14.4,17z"/>
+                        </svg>
+                      </div>
+                    </li>
+                    <li class="calendar__month">
+                      <div class="calendar__item">
+                        <svg  class="calendar__arrow calendar__arrow--left" version="1.1" id="Layer_1"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        x="0px" y="0px" width="9" height="18"
+                        viewBox="0 0 18 34" style="enable-background:new 0 0 18 34;" xml:space="preserve">
+                        <path d="M3.6,17l14-14.4c0.6-0.6,0.6-1.6,0-2.1c-0.6-0.6-1.5-0.6-2.1,0L0.4,15.9c-0.6,0.6-0.6,1.6,0,2.1l15.1,15.5
+                        c0.3,0.3,0.7,0.4,1,0.4s0.8-0.1,1-0.4c0.6-0.6,0.6-1.6,0-2.1L3.6,17z"/>
+                        </svg>
+                        Май 2019
+                        <svg  class="calendar__arrow calendar__arrow--right"
+                        version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        width="9" height="18"
+                        viewBox="0 0 18 34" style="enable-background:new 0 0 18 34;" xml:space="preserve">
+                        <path d="M14.4,17L0.4,2.6C-0.1,2-0.1,1,0.4,0.4c0.6-0.6,1.5-0.6,2.1,0l15.1,15.5c0.6,0.6,0.6,1.6,0,2.1L2.5,33.6
+                        c-0.3,0.3-0.7,0.4-1,0.4s-0.8-0.1-1-0.4c-0.6-0.6-0.6-1.6,0-2.1L14.4,17z"/>
+                        </svg>
+                      </div>
+                    </li>
+                    <li class="calendar__month">
+                      <div class="calendar__item">
+                        <svg  class="calendar__arrow calendar__arrow--left" version="1.1" id="Layer_1"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        x="0px" y="0px" width="9" height="18"
+                        viewBox="0 0 18 34" style="enable-background:new 0 0 18 34;" xml:space="preserve">
+                        <path d="M3.6,17l14-14.4c0.6-0.6,0.6-1.6,0-2.1c-0.6-0.6-1.5-0.6-2.1,0L0.4,15.9c-0.6,0.6-0.6,1.6,0,2.1l15.1,15.5
+                        c0.3,0.3,0.7,0.4,1,0.4s0.8-0.1,1-0.4c0.6-0.6,0.6-1.6,0-2.1L3.6,17z"/>
+                        </svg>
+                        Июнь 2019
+                        <svg  class="calendar__arrow calendar__arrow--right"
+                        version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        width="9" height="18"
+                        viewBox="0 0 18 34" style="enable-background:new 0 0 18 34;" xml:space="preserve">
+                        <path d="M14.4,17L0.4,2.6C-0.1,2-0.1,1,0.4,0.4c0.6-0.6,1.5-0.6,2.1,0l15.1,15.5c0.6,0.6,0.6,1.6,0,2.1L2.5,33.6
+                        c-0.3,0.3-0.7,0.4-1,0.4s-0.8-0.1-1-0.4c-0.6-0.6-0.6-1.6,0-2.1L14.4,17z"/>
+                        </svg>
+                      </div>
+                    </li>
+                    <li class="calendar__month">
+                      <div class="calendar__item">
+                        <svg  class="calendar__arrow calendar__arrow--left" version="1.1" id="Layer_1"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        x="0px" y="0px" width="9" height="18"
+                        viewBox="0 0 18 34" style="enable-background:new 0 0 18 34;" xml:space="preserve">
+                        <path d="M3.6,17l14-14.4c0.6-0.6,0.6-1.6,0-2.1c-0.6-0.6-1.5-0.6-2.1,0L0.4,15.9c-0.6,0.6-0.6,1.6,0,2.1l15.1,15.5
+                        c0.3,0.3,0.7,0.4,1,0.4s0.8-0.1,1-0.4c0.6-0.6,0.6-1.6,0-2.1L3.6,17z"/>
+                        </svg>
+                        Июль 2019
+                        <svg  class="calendar__arrow calendar__arrow--right"
+                        version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        width="9" height="18"
+                        viewBox="0 0 18 34" style="enable-background:new 0 0 18 34;" xml:space="preserve">
+                        <path d="M14.4,17L0.4,2.6C-0.1,2-0.1,1,0.4,0.4c0.6-0.6,1.5-0.6,2.1,0l15.1,15.5c0.6,0.6,0.6,1.6,0,2.1L2.5,33.6
+                        c-0.3,0.3-0.7,0.4-1,0.4s-0.8-0.1-1-0.4c-0.6-0.6-0.6-1.6,0-2.1L14.4,17z"/>
+                        </svg>
+                      </div>
+                    </li>
+                    <li class="calendar__month">
+                      <div class="calendar__item">
+                        <svg  class="calendar__arrow calendar__arrow--left" version="1.1" id="Layer_1"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        x="0px" y="0px" width="9" height="18"
+                        viewBox="0 0 18 34" style="enable-background:new 0 0 18 34;" xml:space="preserve">
+                        <path d="M3.6,17l14-14.4c0.6-0.6,0.6-1.6,0-2.1c-0.6-0.6-1.5-0.6-2.1,0L0.4,15.9c-0.6,0.6-0.6,1.6,0,2.1l15.1,15.5
+                        c0.3,0.3,0.7,0.4,1,0.4s0.8-0.1,1-0.4c0.6-0.6,0.6-1.6,0-2.1L3.6,17z"/>
+                        </svg>
+                        Август 2019
+                        <svg  class="calendar__arrow calendar__arrow--right"
+                        version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        width="9" height="18"
+                        viewBox="0 0 18 34" style="enable-background:new 0 0 18 34;" xml:space="preserve">
+                        <path d="M14.4,17L0.4,2.6C-0.1,2-0.1,1,0.4,0.4c0.6-0.6,1.5-0.6,2.1,0l15.1,15.5c0.6,0.6,0.6,1.6,0,2.1L2.5,33.6
+                        c-0.3,0.3-0.7,0.4-1,0.4s-0.8-0.1-1-0.4c-0.6-0.6-0.6-1.6,0-2.1L14.4,17z"/>
+                        </svg>
+                      </div>
+                    </li>
+                    <li class="calendar__month">
+                      <div class="calendar__item">
+                        <svg  class="calendar__arrow calendar__arrow--left" version="1.1" id="Layer_1"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        x="0px" y="0px" width="9" height="18"
+                        viewBox="0 0 18 34" style="enable-background:new 0 0 18 34;" xml:space="preserve">
+                        <path d="M3.6,17l14-14.4c0.6-0.6,0.6-1.6,0-2.1c-0.6-0.6-1.5-0.6-2.1,0L0.4,15.9c-0.6,0.6-0.6,1.6,0,2.1l15.1,15.5
+                        c0.3,0.3,0.7,0.4,1,0.4s0.8-0.1,1-0.4c0.6-0.6,0.6-1.6,0-2.1L3.6,17z"/>
+                        </svg>
+                        Сентябрь 2019
+                        <svg  class="calendar__arrow calendar__arrow--right"
+                        version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        width="9" height="18"
+                        viewBox="0 0 18 34" style="enable-background:new 0 0 18 34;" xml:space="preserve">
+                        <path d="M14.4,17L0.4,2.6C-0.1,2-0.1,1,0.4,0.4c0.6-0.6,1.5-0.6,2.1,0l15.1,15.5c0.6,0.6,0.6,1.6,0,2.1L2.5,33.6
+                        c-0.3,0.3-0.7,0.4-1,0.4s-0.8-0.1-1-0.4c-0.6-0.6-0.6-1.6,0-2.1L14.4,17z"/>
+                        </svg>
+                      </div>
+                    </li>
+                    <li class="calendar__month">
+                      <div class="calendar__item">
+                        <svg  class="calendar__arrow calendar__arrow--left" version="1.1" id="Layer_1"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        x="0px" y="0px" width="9" height="18"
+                        viewBox="0 0 18 34" style="enable-background:new 0 0 18 34;" xml:space="preserve">
+                        <path d="M3.6,17l14-14.4c0.6-0.6,0.6-1.6,0-2.1c-0.6-0.6-1.5-0.6-2.1,0L0.4,15.9c-0.6,0.6-0.6,1.6,0,2.1l15.1,15.5
+                        c0.3,0.3,0.7,0.4,1,0.4s0.8-0.1,1-0.4c0.6-0.6,0.6-1.6,0-2.1L3.6,17z"/>
+                        </svg>
+                        Октябрь 2019
+                        <svg  class="calendar__arrow calendar__arrow--right"
+                        version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        width="9" height="18"
+                        viewBox="0 0 18 34" style="enable-background:new 0 0 18 34;" xml:space="preserve">
+                        <path d="M14.4,17L0.4,2.6C-0.1,2-0.1,1,0.4,0.4c0.6-0.6,1.5-0.6,2.1,0l15.1,15.5c0.6,0.6,0.6,1.6,0,2.1L2.5,33.6
+                        c-0.3,0.3-0.7,0.4-1,0.4s-0.8-0.1-1-0.4c-0.6-0.6-0.6-1.6,0-2.1L14.4,17z"/>
+                        </svg>
+                      </div>
+                    </li>
+                    <li class="calendar__month">
+                      <div class="calendar__item">
+                        <svg  class="calendar__arrow calendar__arrow--left" version="1.1" id="Layer_1"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        x="0px" y="0px" width="9" height="18"
+                        viewBox="0 0 18 34" style="enable-background:new 0 0 18 34;" xml:space="preserve">
+                        <path d="M3.6,17l14-14.4c0.6-0.6,0.6-1.6,0-2.1c-0.6-0.6-1.5-0.6-2.1,0L0.4,15.9c-0.6,0.6-0.6,1.6,0,2.1l15.1,15.5
+                        c0.3,0.3,0.7,0.4,1,0.4s0.8-0.1,1-0.4c0.6-0.6,0.6-1.6,0-2.1L3.6,17z"/>
+                        </svg>
+                        Ноябрь 2019
+                        <svg  class="calendar__arrow calendar__arrow--right"
+                        version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        width="9" height="18"
+                        viewBox="0 0 18 34" style="enable-background:new 0 0 18 34;" xml:space="preserve">
+                        <path d="M14.4,17L0.4,2.6C-0.1,2-0.1,1,0.4,0.4c0.6-0.6,1.5-0.6,2.1,0l15.1,15.5c0.6,0.6,0.6,1.6,0,2.1L2.5,33.6
+                        c-0.3,0.3-0.7,0.4-1,0.4s-0.8-0.1-1-0.4c-0.6-0.6-0.6-1.6,0-2.1L14.4,17z"/>
+                        </svg>
+                      </div>
+                    </li>
+                    <li class="calendar__month">
+                      <div class="calendar__item">
+                        <svg  class="calendar__arrow calendar__arrow--left" version="1.1" id="Layer_1"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        x="0px" y="0px" width="9" height="18"
+                        viewBox="0 0 18 34" style="enable-background:new 0 0 18 34;" xml:space="preserve">
+                        <path d="M3.6,17l14-14.4c0.6-0.6,0.6-1.6,0-2.1c-0.6-0.6-1.5-0.6-2.1,0L0.4,15.9c-0.6,0.6-0.6,1.6,0,2.1l15.1,15.5
+                        c0.3,0.3,0.7,0.4,1,0.4s0.8-0.1,1-0.4c0.6-0.6,0.6-1.6,0-2.1L3.6,17z"/>
+                        </svg>
+                        Декабрь 2019
+                        <svg  class="calendar__arrow calendar__arrow--right"
+                        version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        width="9" height="18"
+                        viewBox="0 0 18 34" style="enable-background:new 0 0 18 34;" xml:space="preserve">
+                        <path d="M14.4,17L0.4,2.6C-0.1,2-0.1,1,0.4,0.4c0.6-0.6,1.5-0.6,2.1,0l15.1,15.5c0.6,0.6,0.6,1.6,0,2.1L2.5,33.6
+                        c-0.3,0.3-0.7,0.4-1,0.4s-0.8-0.1-1-0.4c-0.6-0.6-0.6-1.6,0-2.1L14.4,17z"/>
+                        </svg>
+                      </div>
+                    </li>
+                  </ul>
+                  <table class="calendar__days">
+                    <tr>
+                      <th class="calendar__day-week">
+                        П<span class="calendar__desktop">н</span>
+                      </th>
+                      <th class="calendar__day-week">
+                        В<span class="calendar__desktop">т</span>
+                      </th>
+                      <th class="calendar__day-week">
+                        С<span class="calendar__desktop">р</span>
+                      </th>
+                      <th class="calendar__day-week">
+                        Ч<span class="calendar__desktop">т</span>
+                      </th>
+                      <th class="calendar__day-week">
+                        П<span class="calendar__desktop">т</span>
+                      </th>
+                      <th class="calendar__day-week calendar__day-week--holiday">
+                        С<span class="calendar__desktop">б</span>
+                      </th>
+                      <th class="calendar__day-week calendar__day-week--holiday">
+                        В<span class="calendar__desktop">с</span>
+                      </th>
+                    </tr>
+                    <tr>
+                      <td class="calendar__day calendar__day--last">
+                        <label for="23-february">23</label>
+                        <input class="visually-hidden" type="checkbox" disabled id="23-february">
+                      </td>
+                      <td class="calendar__day calendar__day--last">
+                        <label for="24-february">24</label>
+                        <input class="visually-hidden" type="checkbox" disabled id="24-february">
+                      </td>
+                      <td class="calendar__day calendar__day--last">
+                        <label for="25-february">25</label>
+                        <input class="visually-hidden" type="checkbox" disabled id="25-february">
+                      </td>
+                      <td class="calendar__day calendar__day--last">
+                        <label for="26-february">26</label>
+                        <input class="visually-hidden" type="checkbox" disabled id="26-february">
+                      </td>
+                      <td class="calendar__day calendar__day--last">
+                        <label for="27-february">27</label>
+                        <input class="visually-hidden" type="checkbox" disabled id="27-february">
+                      </td>
+                      <td class="calendar__day calendar__day--last">
+                        <label for="28-february">28</label>
+                        <input class="visually-hidden" type="checkbox" disabled id="28-february">
+                      </td>
+                      <td class="calendar__day calendar__day--last">
+                        <label for="1-march">1</label>
+                        <input class="visually-hidden" type="checkbox" disabled id="1-march">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="calendar__day calendar__day--last">
+                        <label for="2-march">2</label>
+                        <input class="visually-hidden" type="checkbox" disabled id="2-march">
+                      </td>
+                      <td class="calendar__day calendar__day--last">
+                        <label for="3-march">3</label>
+                        <input class="visually-hidden" type="checkbox" disabled id="3-march">
+                      </td>
+                      <td class="calendar__day calendar__day--last">
+                        <label for="4-march">4</label>
+                        <input class="visually-hidden" type="checkbox" disabled id="4-march">
+                      </td>
+                      <td class="calendar__day calendar__day--last">
+                        <label for="5-march">5</label>
+                        <input class="visually-hidden" type="checkbox" disabled id="5-march">
+                      </td>
+                      <td class="calendar__day calendar__day--last">
+                        <label for="6-march">6</label>
+                        <input class="visually-hidden" type="checkbox" disabled id="6-march">
+                      </td>
+                      <td class="calendar__day calendar__day--last">
+                        <label for="7-march">7</label>
+                        <input class="visually-hidden" type="checkbox" disabled id="7-march">
+                      </td>
+                      <td class="calendar__day calendar__day--last">
+                        <label for="8-march">8</label>
+                        <input class="visually-hidden" type="checkbox" disabled id="8-march">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="calendar__day calendar__day--last">
+                        <label for="9-march">9</label>
+                        <input class="visually-hidden" type="checkbox" disabled id="9-march">
+                      </td>
+                      <td class="calendar__day calendar__day--last">
+                        <label for="10-march">10</label>
+                        <input class="visually-hidden" type="checkbox" disabled id="10-march">
+                      </td>
+                      <td class="calendar__day calendar__day--last">
+                        <label for="11-march">11</label>
+                        <input class="visually-hidden" type="checkbox" disabled id="11-march">
+                      </td>
+                      <td class="calendar__day calendar__day--last">
+                        <label for="12-march">12</label>
+                        <input class="visually-hidden" type="checkbox" disabled id="12-march">
+                      </td>
+                      <td class="calendar__day calendar__day--last">
+                        <label for="13-march">13</label>
+                        <input class="visually-hidden" type="checkbox" disabled id="13-march">
+                      </td>
+                      <td class="calendar__day calendar__day--last">
+                        <label for="14-march">14</label>
+                        <input class="visually-hidden" type="checkbox" disabled id="14-march">
+                      </td>
+                      <td class="calendar__day calendar__day--last">
+                        <label for="15-march">15</label>
+                        <input class="visually-hidden" type="checkbox" disabled id="15-march">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="calendar__day calendar__day--last">
+                        <label for="16-march">16</label>
+                        <input class="visually-hidden" type="checkbox" disabled id="16-march">
+                      </td>
+                      <td class="calendar__day calendar__day--last">
+                        <label for="17-march">17</label>
+                        <input class="visually-hidden" type="checkbox" disabled id="17-march">
+                      </td>
+                      <td class="calendar__day calendar__day--last">
+                        <label for="18-march">18</label>
+                        <input class="visually-hidden" type="checkbox" disabled id="18-march">
+                      </td>
+                      <td class="calendar__day calendar__day--last">
+                        <label for="19-march">19</label>
+                        <input class="visually-hidden" type="checkbox" disabled id="19-march">
+                      </td>
+                      <td class="calendar__day calendar__day--last">
+                        <label for="20-march">20</label>
+                        <input class="visually-hidden" type="checkbox" disabled id="20-march">
+                      </td>
+                      <td class="calendar__day calendar__day--last">
+                        <label for="21-march">21</label>
+                        <input class="visually-hidden" type="checkbox" disabled id="21-march">
+                      </td>
+                      <td class="calendar__day calendar__day--last">
+                        <label for="22-march">22</label>
+                        <input class="visually-hidden" type="checkbox" disabled id="22-march">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="calendar__day calendar__day--last">
+                        <label for="23-march">23</label>
+                        <input class="visually-hidden" type="checkbox" disabled id="23-march">
+                      </td>
+                      <td class="calendar__day calendar__day--last">
+                        <label for="24-march">24</label>
+                        <input class="visually-hidden" type="checkbox" disabled id="24-march">
+                      </td>
+                      <td class="calendar__day calendar__day--last">
+                        <label for="25-march">25</label>
+                        <input class="visually-hidden" type="checkbox" disabled id="25-march">
+                      </td>
+                      <td class="calendar__day calendar__day--selected calendar__day--entry">
+                        <label for="26-march">26</label>
+                        <input class="visually-hidden" type="checkbox" checked id="26-march">
+                      </td>
+                      <td class="calendar__day calendar__day--selected">
+                        <label for="27-march">27</label>
+                        <input class="visually-hidden" type="checkbox" checked id="27-march">
+                      </td>
+                      <td class="calendar__day calendar__day--selected calendar__day--departure">
+                        <label for="28-march">28</label>
+                        <input class="visually-hidden" type="checkbox" checked id="28-march">
+                      </td>
+                      <td class="calendar__day">
+                        <label for="29-march">29</label>
+                        <input class="visually-hidden" type="checkbox" id="29-march">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="calendar__day">
+                        <label for="30-march">30</label>
+                        <input class="visually-hidden" type="checkbox" id="30-march">
+                      </td>
+                      <td class="calendar__day">
+                        <label for="31-march">31</label>
+                        <input class="visually-hidden" type="checkbox" id="31-march">
+                      </td>
+                      <td class="calendar__day">
+                        <label for="1-april">1</label>
+                        <input class="visually-hidden" type="checkbox" id="1-april">
+                      </td>
+                      <td class="calendar__day">
+                        <label for="2-april">2</label>
+                        <input class="visually-hidden" type="checkbox" id="2-april">
+                      </td>
+                      <td class="calendar__day">
+                        <label for="3-april">3</label>
+                        <input class="visually-hidden" type="checkbox" id="3-april">
+                      </td>
+                      <td class="calendar__day">
+                        <label for="4-april">4</label>
+                        <input class="visually-hidden" type="checkbox" id="4-april">
+                      </td>
+                      <td class="calendar__day">
+                        <label for="5-april">5</label>
+                        <input class="visually-hidden" type="checkbox" id="5-april">
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+                <button class="procedure-steps__button procedure-steps__button--next" type="button">
+                  Следующий шаг
+                  <svg class="procedure-steps__svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10" height="14"
+                  viewBox="0 0 10 14" style="enable-background:new 0 0 10 14;" xml:space="preserve">
+                  <polygon points="0,14 0,0.1 10,7.1 "></polygon>
+                  </svg>
+                </button>
+              </li>
+              <li class="procedure-steps__item">
+                <h4 class="procedure-steps__title">Маршрут</h4>
+                <ul class="procedure__slider slider slider--desktop">
+                  <li class="slider__item slider__item--switch1">
+                    <button class="slider__button slider__button--active" type="button" aria-label="Первый шаг">
+                      <div class="slider__text">Даты</div>
+                    </button>
+                  </li>
+                  <li class="slider__item slider__item--switch2">
+                    <button class="slider__button" type="button" aria-label="Второй шаг">
+                      <div class="slider__text">Маршрут</div>
+                    </button>
+                  </li>
+                  <li class="slider__item slider__item--switch3">
+                    <button class="slider__button" type="button" aria-label="Третий шаг">
+                      <div class="slider__text">Развлечения</div>
+                    </button>
+                  </li>
+                </ul>
+                <p class="procedure-steps__intro">Укажите страны, которые вы хотели по посетить
+                Это может быть одна или сразу несколько.</p>
+                <div class="procedure-steps__table">
+                  <label class="procedure-steps__option procedure-steps__option--selected">
+                    <input class="procedure-steps__input procedure-steps__input--text"
+                    type="text" name="countries" value="Босния и Герцеговина">
+                    <div class="procedure-steps__flag">
+                      <img src="img/flag-bosnia.svg"
+                      alt="Флаг страны" width="35px" height="24px">
+                    </div>
+                    <button class="procedure-steps__delete" type="button"
+                    aria-label="Удалить страну">
+                      <svg class="procedure-steps__delete-svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 9 9"
+                      style="enable-background:new 0 0 9 9;" xml:space="preserve" width="9px" height="9px">
+                      <path d="M5.2,4.5l3.7-3.7C9,0.6,9,0.3,8.9,0.1S8.4,0,8.2,0.1L4.5,3.8L0.8,0.1C0.6,0,0.3,0,0.1,0.1S0,0.6,0.1,0.8l3.7,3.7L0.1,8.2
+                      C0,8.4,0,8.7,0.1,8.9C0.2,9,0.4,9,0.5,9s0.2,0,0.3-0.1l3.7-3.7l3.7,3.7C8.3,9,8.4,9,8.5,9s0.2,0,0.3-0.1C9,8.7,9,8.4,8.9,8.2
+                      L5.2,4.5z"/></svg>
+                    </button>
+                    <svg  class="procedure-steps__arrow" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="5px" height="10px"
+                    viewBox="0 0 5 10" style="enable-background:new 0 0 5 10;" xml:space="preserve">
+                    <polygon class="st0" points="3,8.1 3,0 2,0 2,8.1 0,6.1 0,7.5 2.5,10 5,7.5 5,6.1 "/>
+                    </svg>
+                  </label>
+                  <label class="procedure-steps__option procedure-steps__option--selected">
+                    <input class="procedure-steps__input procedure-steps__input--text"
+                    type="text" name="countries" value="Чехия">
+                    <div class="procedure-steps__flag">
+                      <img src="img/flag-czech.svg" alt="Флаг страны"
+                      width="35px" height="24px">
+                    </div>
+                    <button class="procedure-steps__delete" type="button"
+                    aria-label="Удалить страну">
+                      <svg class="procedure-steps__delete-svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 9 9"
+                      style="enable-background:new 0 0 9 9;" xml:space="preserve" width="9px" height="9px">
+                      <path d="M5.2,4.5l3.7-3.7C9,0.6,9,0.3,8.9,0.1S8.4,0,8.2,0.1L4.5,3.8L0.8,0.1C0.6,0,0.3,0,0.1,0.1S0,0.6,0.1,0.8l3.7,3.7L0.1,8.2
+                      C0,8.4,0,8.7,0.1,8.9C0.2,9,0.4,9,0.5,9s0.2,0,0.3-0.1l3.7-3.7l3.7,3.7C8.3,9,8.4,9,8.5,9s0.2,0,0.3-0.1C9,8.7,9,8.4,8.9,8.2
+                      L5.2,4.5z"/></svg>
+                    </button>
+                    <svg class="procedure-steps__arrow" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="5px" height="10px"
+                    viewBox="0 0 5 10" style="enable-background:new 0 0 5 10;" xml:space="preserve">
+                    <polygon class="st0" points="3,8.1 3,0 2,0 2,8.1 0,6.1 0,7.5 2.5,10 5,7.5 5,6.1 "/>
+                    </svg>
+                  </label>
+                  <div class="procedure-steps__option procedure-steps__option--choice">
+                    <button class="procedure-steps__select modal__switch-open" type="button">
+                      <span>Выберите страну</span>
+                    </button>
+                    <button class="procedure-steps__delete" type="button"
+                    aria-label="Удалить страну">
+                      <svg class="procedure-steps__delete-svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 9 9"
+                      style="enable-background:new 0 0 9 9;" xml:space="preserve" width="9px" height="9px">
+                      <path d="M5.2,4.5l3.7-3.7C9,0.6,9,0.3,8.9,0.1S8.4,0,8.2,0.1L4.5,3.8L0.8,0.1C0.6,0,0.3,0,0.1,0.1S0,0.6,0.1,0.8l3.7,3.7L0.1,8.2
+                      C0,8.4,0,8.7,0.1,8.9C0.2,9,0.4,9,0.5,9s0.2,0,0.3-0.1l3.7-3.7l3.7,3.7C8.3,9,8.4,9,8.5,9s0.2,0,0.3-0.1C9,8.7,9,8.4,8.9,8.2
+                      L5.2,4.5z"/></svg>
+                    </button>
+                    <svg  class="procedure-steps__arrow" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="5px" height="10px"
+                    viewBox="0 0 5 10" style="enable-background:new 0 0 5 10;" xml:space="preserve">
+                    <polygon class="st0" points="3,8.1 3,0 2,0 2,8.1 0,6.1 0,7.5 2.5,10 5,7.5 5,6.1 "/>
+                    </svg>
+                    <div class="modal modal-show modal--closed">
+                      <div class="modal__header">
+                        <h2 class="modal__title">Выберите страну</h2>
+                        <button class="modal__switch-close" type="button" aria-label="Закрыть окно">
+                          <svg class="modal__close modal__close--white" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="9" height="9"
+                          viewBox="0 0 9 9" style="enable-background:new 0 0 9 9;" xml:space="preserve">
+                          <path d="M5.2,4.5l3.7-3.7C9,0.6,9,0.3,8.9,0.1S8.4,0,8.2,0.1L4.5,3.8L0.8,0.1C0.6,0,0.3,0,0.1,0.1S0,0.6,0.1,0.8l3.7,3.7L0.1,8.2
+                          C0,8.4,0,8.7,0.1,8.9C0.2,9,0.4,9,0.5,9s0.2,0,0.3-0.1l3.7-3.7l3.7,3.7C8.3,9,8.4,9,8.5,9s0.2,0,0.3-0.1C9,8.7,9,8.4,8.9,8.2 L5.2,4.5z"/>
+                          </svg>
+                        </button>
+                      </div>
+                      <div class="countries countries--modal">
+                        <ul class="countries__alphabet alphabet">
+                          <li class="alphabet__item alphabet__item--active">
+                            <button class="alphabet__letter alphabet__letter--lightblue"
+                            type="button" class="alphabet__button">А</button>
+                          </li>
+                          <li class="alphabet__item">
+                            <button class="alphabet__letter" type="button" class="alphabet__button">Б</button>
+                          </li>
+                          <li class="alphabet__item">
+                            <button class="alphabet__letter" type="button" class="alphabet__button">В</button>
+                          </li>
+                          <li class="alphabet__item">
+                            <button class="alphabet__letter" type="button" class="alphabet__button">Г</button>
+                          </li>
+                          <li class="alphabet__item">
+                            <button class="alphabet__letter" type="button" class="alphabet__button">Д</button>
+                          </li>
+                          <li class="alphabet__item">
+                            <button class="alphabet__letter" type="button" class="alphabet__button">Е</button>
+                          </li>
+                          <li class="alphabet__item">
+                            <button class="alphabet__letter" type="button" class="alphabet__button">З</button>
+                          </li>
+                          <li class="alphabet__item">
+                            <button class="alphabet__letter" type="button" class="alphabet__button">И</button>
+                          </li>
+                          <li class="alphabet__item">
+                            <button class="alphabet__letter" type="button" class="alphabet__button">К</button>
+                          </li>
+                          <li class="alphabet__item">
+                            <button class="alphabet__letter" type="button" class="alphabet__button">Л</button>
+                          </li>
+                          <li class="alphabet__item">
+                            <button class="alphabet__letter" type="button" class="alphabet__button">М</button>
+                          </li>
+                          <li class="alphabet__item">
+                            <button class="alphabet__letter" type="button" class="alphabet__button">Н</button>
+                          </li>
+                          <li class="alphabet__item">
+                            <button class="alphabet__letter" type="button" class="alphabet__button">О</button>
+                          </li>
+                          <li class="alphabet__item">
+                            <button class="alphabet__letter" type="button" class="alphabet__button">П</button>
+                          </li>
+                          <li class="alphabet__item">
+                            <button class="alphabet__letter" type="button" class="alphabet__button">Р</button>
+                          </li>
+                          <li class="alphabet__item">
+                            <button class="alphabet__letter" type="button" class="alphabet__button">С</button>
+                          </li>
+                          <li class="alphabet__item">
+                            <button class="alphabet__letter" type="button" class="alphabet__button">Т</button>
+                          </li>
+                          <li class="alphabet__item">
+                            <button class="alphabet__letter" type="button" class="alphabet__button">У</button>
+                          </li>
+                          <li class="alphabet__item">
+                            <button class="alphabet__letter" type="button" class="alphabet__button">Ф</button>
+                          </li>
+                          <li class="alphabet__item">
+                            <button class="alphabet__letter" type="button" class="alphabet__button">Х</button>
+                          </li>
+                          <li class="alphabet__item">
+                            <button class="alphabet__letter" type="button" class="alphabet__button">Ч</button>
+                          </li>
+                          <li class="alphabet__item">
+                            <button class="alphabet__letter" type="button" class="alphabet__button">Ш</button>
+                          </li>
+                          <li class="alphabet__item">
+                            <button class="alphabet__letter" type="button" class="alphabet__button">Э</button>
+                          </li>
+                          <li class="alphabet__item">
+                            <button class="alphabet__letter" type="button" class="alphabet__button">Ю</button>
+                          </li>
+                          <li class="alphabet__item">
+                            <button class="alphabet__letter" type="button" class="alphabet__button">Я</button>
+                          </li>
+                        </ul>
+                        <ul class="countries__countries-list countries-list countries-list--mini">
+                          <li class="countries-list__item">
+                            <a class="countries-list__state" href="#">Афганистан</a>
+                          </li>
+                          <li class="countries-list__item">
+                            <a class="countries-list__state" href="#">Албания</a>
+                          </li>
+                          <li class="countries-list__item">
+                            <a class="countries-list__state" href="#">Алжир</a>
+                          </li>
+                          <li class="countries-list__item">
+                            <a class="countries-list__state" href="#">Андорра</a>
+                          </li>
+                          <li class="countries-list__item">
+                            <a class="countries-list__state" href="#">Аргентина</a>
+                          </li>
+                          <li class="countries-list__item">
+                            <a class="countries-list__state" href="#">Армения</a>
+                          </li>
+                          <li class="countries-list__item">
+                            <a class="countries-list__state" href="#">Австралия</a>
+                          </li>
+                          <li class="countries-list__item">
+                            <a class="countries-list__state" href="#">Австрия</a>
+                          </li>
+                          <li class="countries-list__item">
+                            <a class="countries-list__state" href="#">Азербайджан</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+
+
+                  </div>
+                  <div class="procedure-steps__option procedure-steps__option--add">
+                    <button class="procedure-steps__select procedure-steps__select--add" type="button">
+                      <span>Добавить страну</span>
+                    </button>
+                  </div>
+                </div>
+                <button class="procedure-steps__button procedure-steps__button--next" type="button">
+                  Следующий шаг
+                  <svg class="procedure-steps__svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10" height="14"
+                  viewBox="0 0 10 14" style="enable-background:new 0 0 10 14;" xml:space="preserve">
+                  <polygon points="0,14 0,0.1 10,7.1 "></polygon>
+                  </svg>
+                </button>
+                <button class="procedure-steps__button procedure-steps__button--back" type="button">
+                  <svg class="procedure-steps__svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10" height="14"
+                  viewBox="0 0 10 14" style="enable-background:new 0 0 10 14;" xml:space="preserve">
+                  <polygon points="0,7.1 10,0.1 10,14 "/>
+                  </svg>
+                  На шаг назад
+                </button>
+              </li>
+              <li class="procedure-steps__item">
+                <h4 class="procedure-steps__title">Развелечения</h4>
+                <ul class="procedure__slider slider slider--desktop">
+                  <li class="slider__item slider__item--switch1">
+                    <button class="slider__button slider__button--active" type="button" aria-label="Первый шаг">
+                      <div class="slider__text">Даты</div>
+                    </button>
+                  </li>
+                  <li class="slider__item slider__item--switch2">
+                    <button class="slider__button" type="button" aria-label="Второй шаг">
+                      <div class="slider__text">Маршрут</div>
+                    </button>
+                  </li>
+                  <li class="slider__item slider__item--switch3">
+                    <button class="slider__button" type="button" aria-label="Третий шаг">
+                      <div class="slider__text">Развлечения</div>
+                    </button>
+                  </li>
+                </ul>
+                <p class="procedure-steps__intro">
+                  Наконец, расскажите о своих планах времяпровождения.
+                  Можно писать в свободной форме и ставить тэги.
+                </p>
+                <ul class="procedure-steps__entertainment entertainment">
+                  <li class="entertainment__item">
+                    <label class="entertainment__label" for="Bosnia-and-Herzegovina-plan">
+                      <span class="entertainment__titel">
+                        Босния и герцеговина
+                      </span>
+                      <img class="entertainment__flag" src="img/flag-bosnia.svg"
+                      alt="Флаг Боснии и Герцеговины" width="35px" height="24px">
+                    </label>
+                    <textarea class="entertainment__text" name="plan" cols="10" rows="5"
+                    id="Bosnia-and-Herzegovina-plan"
+                    placeholder="План действий"></textarea>
+                  </li>
+                  <li class="entertainment__item">
+                    <label class="entertainment__label" for="Czech-Republic-plan">
+                      <span class="entertainment__titel">
+                        Чехия
+                      </span>
+                      <img class="entertainment__flag" src="img/flag-czech.svg"
+                      alt="Флаг Чехии" width="35px" height="24px">
+                    </label class="entertainment__label">
+                    <textarea class="entertainment__text" name="plan" cols="10" rows="5"
+                    id="Czech-Republic-plan">Пить пиво и лазить по старым замкам, наслаждаться архитектурой и вот это все.</textarea>
+                  </li>
+                </ul>
+                <button class="procedure-steps__button procedure-steps__button--next" type="submit">
+                  Отправить
+                  <svg class="procedure-steps__svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10" height="14"
+                  viewBox="0 0 10 14" style="enable-background:new 0 0 10 14;" xml:space="preserve">
+                  <polygon points="0,14 0,0.1 10,7.1 "></polygon>
+                  </svg>
+                </button>
+                <button class="procedure-steps__button procedure-steps__button--back" type="button">
+                  <svg class="procedure-steps__svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10" height="14"
+                  viewBox="0 0 10 14" style="enable-background:new 0 0 10 14;" xml:space="preserve">
+                  <polygon points="0,7.1 10,0.1 10,14 "/>
+                  </svg>
+                  На шаг назад
+                </button>
+              </li>
+            </ol>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="page-footer container">
+      <a href="index.html" class="page-footer__logo logo" aria-label="Главная страница">
+        <img class="logo__mobile" src="img/logo-mobile-blue@1x.png" alt="Логотип Погнали"
+        width="100px" height="19px">
+        <img class="logo__tablet" src="img/logo-tablet-blue@1x.png" alt="Логотип Погнали"
+        width="164px" height="42px">
+        <img class="logo__desktop" src="img/logo-desktop-blue@1x.png" alt="Логотип Погнали"
+        width="198px" height="52px">
+      </a>
+      <ul class="page-footer__social-network social-network">
+        <li class="social-network__item social-network__item--orange">
+          <a class="social-network__link" href="https://ru-ru.facebook.com" aria-label="Погнали в Фейсбуке">
+            <svg class="social-network__img social-network__img--blue" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="11" height="21"
+            viewBox="0 0 11 21" style="enable-background:new 0 0 11 21;" xml:space="preserve">
+            <g>
+            <path d="M7.8,21H2.2v-9.8H0V6.4h2.1C2,4.2,2.4,2.6,3.4,1.5C4.2,0.6,5.5,0.1,7.1,0L11,0v4.7H7.9C7.8,4.9,7.7,5.5,7.7,6.4H11v4.8H7.8
+            V21z M3.4,19.9h3.1v-9.8h3.2V7.5H6.5l0-0.6c0-1.5,0-2.9,0.8-3.4l0.2-0.1h2.3V1.1H7.1C5.9,1.2,4.9,1.6,4.3,2.3 C3.5,3.2,3.2,4.8,3.4,6.9l0.1,0.6H1.2v2.6h2.2V19.9z"/>
+            </g>
+            </svg>
+          </a>
+        </li>
+        <li class="social-network__item social-network__item--orange">
+          <a class="social-network__link" href="https://vk.com" aria-label="Погнали во Вконтакте">
+            <svg class="social-network__img social-network__img--blue" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="23" height="12"
+            viewBox="0 0 30 15.8" style="enable-background:new 0 0 30 15.8;" xml:space="preserve">
+            <g>
+            <path d="M23.9,15.8c-0.4,0-1.2-0.1-2.1-0.6c-0.6-0.4-1.2-1-1.8-1.5c-0.4-0.4-1.2-1.2-1.4-1.2c-0.3,0.1-0.5,0.9-0.5,1.6
+            c0,0.1,0,0.8-0.5,1.2c-0.4,0.4-1.1,0.5-1.2,0.5l-1.9,0c-1,0-4.4-0.2-7.4-3c-3.7-3.4-6.8-9.8-7-10.1C0,2.2-0.1,1.5,0.3,1.1
+            c0.4-0.4,1.1-0.5,1.4-0.5l4.1,0l0.1,0c0.1,0,0.6,0.1,1,0.3c0.4,0.2,0.6,0.7,0.6,0.7c0,0,0.6,1.4,1.5,2.7c1.3,2,1.9,2.5,2.1,2.6
+            c0.2-0.4,0.3-1.7,0.2-2.9c0-0.5-0.1-1.1-0.3-1.3c-0.1-0.1-0.4-0.3-0.8-0.3L9.5,1.8c-0.1-0.7,0.6-1.2,1.1-1.4
+            C11.3,0.1,12.4,0,13.7,0l0.7,0c1.2,0,1.6,0.1,2.1,0.2c1.7,0.4,1.6,1.7,1.6,3.3c0,0.5,0,1,0,1.6c0,0.2,0,0.3,0,0.5
+            c0,0.4,0,1,0.1,1.3c0.2-0.1,0.9-0.7,2.1-2.5c0.8-1.2,1.4-2.5,1.5-2.8l0,0c0.2-0.4,0.6-0.9,1.6-0.9l4.3,0c0,0,0.2,0,0.4,0
+            c1,0,1.6,0.3,1.8,0.9c0.3,0.6,0.2,1.7-2.4,4.6c-0.4,0.4-0.7,0.8-1,1.1c-0.6,0.7-1.2,1.4-1.2,1.6C25.4,9,26,9.5,26.6,10
+            c1.5,1.2,2.5,2.3,3,3.1c0.5,0.8,0.4,1.3,0.3,1.7c-0.4,0.9-1.6,1-1.9,1l-3.8,0C24.1,15.8,24.1,15.8,23.9,15.8z M18.6,10.9
+            c0.9,0,1.7,0.8,2.5,1.6c0.5,0.5,1,1,1.5,1.3c0.7,0.4,1.3,0.4,1.4,0.4l0.1,0l3.8,0c0.2,0,0.4-0.1,0.5-0.1c0,0,0-0.1-0.1-0.2
+            c-0.4-0.7-1.4-1.7-2.7-2.7c-1.2-1-1.8-1.5-1.9-2.2c-0.1-0.8,0.5-1.4,1.6-2.7c0.3-0.3,0.6-0.7,1-1.1c1.6-1.8,2-2.6,2.1-3
+            c-0.2,0-0.6,0-0.7,0l-4.4,0c-0.2,0-0.2,0-0.2,0c-0.2,0.4-0.8,1.8-1.6,3c-1.9,2.8-2.8,3.2-3.4,3.2c-0.2,0-0.4,0-0.6-0.1
+            c-1-0.6-1-1.8-0.9-2.8c0-0.1,0-0.3,0-0.4c0-0.6,0-1.2,0-1.7c0.1-1.7,0-1.7-0.4-1.8c-0.4-0.1-0.7-0.1-1.9-0.2l-0.7,0
+            c-0.6,0-1.3,0-1.9,0.1c0.1,0.1,0.2,0.2,0.3,0.3c0.6,0.7,0.6,2,0.6,2.2c0.1,1.6,0.1,3.8-1,4.3c-0.2,0.1-0.4,0.1-0.6,0.1
+            c-0.9,0-1.9-0.9-3.4-3.3C6.8,3.9,6.1,2.4,6.1,2.3c0,0-0.1-0.1-0.1-0.1C5.9,2.2,5.8,2.1,5.7,2.1l-4,0c0,0,0,0-0.1,0
+            C2.2,3.3,5,8.7,8.1,11.6c2.7,2.5,5.8,2.6,6.4,2.6l1.9,0c0,0,0.2-0.1,0.3-0.1c0,0,0-0.1,0-0.1c0-0.3,0-2.6,1.6-3
+            C18.4,10.9,18.5,10.9,18.6,10.9z"/>
+            </g>
+            </svg>
+          </a>
+        </li>
+        <li class="social-network__item social-network__item--orange">
+          <a class="social-network__link" href="https://www.instagram.com" aria-label="Погнали в Инстаграме">
+            <svg class="social-network__img social-network__img--blue" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="18" height="18"
+            viewBox="0 0 23 23" style="enable-background:new 0 0 23 23;" xml:space="preserve">
+            <path class="st0" d="M17,1.5c2.5,0,4.5,2,4.5,4.5v11c0,2.5-2,4.5-4.5,4.5H6c-2.5,0-4.5-2-4.5-4.5V6c0-2.5,2-4.5,4.5-4.5L17,1.5
+            M17,0H6C2.7,0,0,2.7,0,6v11c0,3.3,2.7,6,6,6h11c3.3,0,6-2.7,6-6V6C23,2.7,20.3,0,17,0L17,0z"/>
+            <path class="st0" d="M11.5,7.1c2.4,0,4.4,2,4.4,4.4c0,2.4-2,4.4-4.4,4.4c-2.4,0-4.4-2-4.4-4.4C7.1,9.1,9.1,7.1,11.5,7.1 M11.5,5.6
+            c-3.3,0-5.9,2.7-5.9,5.9s2.7,5.9,5.9,5.9s5.9-2.7,5.9-5.9S14.8,5.6,11.5,5.6L11.5,5.6z"/>
+            <circle class="st0" cx="17.6" cy="5.4" r="1.3"/>
+            </svg>
+          </a>
+        </li>
+      </ul>
+      <div class="page-footer__copyright copyright">
+        <p class="copyright__text">Разработано</p>
+        <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
+          <svg class="copyright__img" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="27" height="34"
+          viewBox="0 0 27 34" style="enable-background:new 0 0 27 34;" xml:space="preserve">
+          <path class="st0" d="M13.6,0l-0.2,0L0,1.4V26l13.5,8L27,26l0,0V1.4L13.6,0z M19.3,16.8l-0.9,0.5l-5-3l0,1.4l3.8,2.3l-0.8,0.5l-3-1.8
+          l0,1.4l1.9,1.1l-1.8,1.1L2,13.6l11.4-6.8L25,13.5l-4.5,2.6l-7.1-4.2l0,1.4L19.3,16.8z M1.9,15.1l11.4,6.8l0,1l-8-4.7l0,1.4l8,4.8
+          l0,1.1l-8-4.7l0,1.4l8,4.8l0,0l8.2-4.9v-1.3l0-0.1V17l3.4-2v10l-11.6,6.9L1.9,24.9V15.1z M1.9,12.1V3.1l11.6-1.2l11.6,1.2v9
+          L13.5,5.3l0-0.1l-0.1,0l-0.1,0v0.1L1.9,12.1z"/>
+          </svg>
+        </a>
+      </div>
+    </footer>
+    <script>
+      var menuMain = document.querySelector('.main-menu');
+      var menuSwitch = document.querySelector('.main-menu__switch');
+      var popupMenu = document.querySelector('.main-menu__popup');
+
+      menuSwitch.addEventListener('click', function(evt) {
+        evt.preventDefault();
+        if (menuMain.classList.contains('main-menu--closed')) {
+          menuMain.classList.remove('main-menu--closed');
+          menuMain.classList.add('main-menu--opened');
+          popupMenu.classList.add('main-menu__popup--js');
+        } else {
+          menuMain.classList.add('main-menu--closed');
+          menuMain.classList.remove('main-menu--opened');
+        }
+      });
+      menuMain.classList.add('main-menu--closed');
+      menuMain.classList.remove('main-menu--opened');
+      menuSwitch.classList.remove('main-menu__switch--nojs');
+
+      var modal = document.querySelector('.modal');
+      var modalSwitchOpen = document.querySelector('.modal__switch-open');
+      var modalSwitchClose = document.querySelector('.modal__switch-close');
+
+      modalSwitchOpen.addEventListener('click', function(evt) {
+        evt.preventDefault();
+        modal.classList.remove('modal--closed');
+        modal.classList.add('modal--opened');
+      });
+      modalSwitchClose.addEventListener('click', function(evt) {
+        evt.preventDefault();
+        modal.classList.add('modal--closed');
+        modal.classList.remove('modal--opened');
+      });
+    </script>
+  </body>
+</html>
