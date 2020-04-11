@@ -1,0 +1,151 @@
+.address {
+  min-height: 535px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #eae6dd url("../img/map-mobile@1x.jpg") no-repeat 0 204px;
+  color: #192144;
+}
+
+.address__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 156px;
+  padding-bottom: 25px;
+  padding-top: 57px;
+  background-color: #ffd74b;
+  .rounded-bottom(5);
+}
+
+.address__postal {
+  margin: 0;
+  padding-left: 17px;
+  padding-right: 15px;
+  text-transform: uppercase;
+}
+
+.address__circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #121936;
+  flex-shrink: 0;
+}
+
+.address__pin {
+  fill: #ffd74b;
+}
+
+.address__button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 56px;
+  margin-bottom: 10px;
+  padding-left: 22px;
+  padding-right: 21px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(25, 33, 68);
+  border-radius: 10px;
+  text-decoration: none;
+  .font(18px; 18px);
+  color: #1d2e5b;
+}
+
+.address__triangle {
+  fill: #1d2e5b;
+}
+
+@media (min-width: @tablet-width) {
+  .address {
+    min-height: 865px;
+    background: #eae6dd url("../img/map-tablet@1x.jpg") no-repeat 0 284px;
+  }
+
+  .address__text {
+    padding-top: 90px;
+    padding-bottom: 40px;
+    .rounded-bottom-tablet(5);
+  }
+
+  .address__circle {
+    width: 68px;
+    height: 68px;
+    margin-left: 35px;
+  }
+
+  .address__pin {
+    width: 21px;
+    height: 32px;
+  }
+
+  .address__postal {
+    padding-left: 25px;
+    padding-right: 25px;
+    align-self: center;
+    font-size: 28px;
+    line-height: 28px;
+    flex-grow: 1;
+  }
+
+  .address__button {
+    height: 75px;
+    margin: 45px 35px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 20px;
+    font-size: 24px;
+    line-height: 24px;
+    color: #192144;
+  }
+}
+
+@media (min-width: @desktop-width) {
+  .address {
+    min-height: 717px;
+    background: #eae6dd url("../img/map-desktop@1x.jpg") no-repeat 0 61px;
+  }
+
+
+  .address__text {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    min-height: 141px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    .rounded-bottom-desktop(5);
+  }
+
+  .address__postal {
+    flex-grow: 0;
+    padding-left: 32px;
+    padding-right: 0;
+  }
+
+  .address__button {
+    width: 248px;
+    margin: 0;
+    flex-shrink: 0;
+  }
+
+  .address__circle {
+    width: 90px;
+    height: 90px;
+    margin-bottom: -4px;
+    margin-left: 0;
+  }
+
+  .address__pin {
+    width: 28px;
+    height: 43px;
+  }
+
+  .address__one-row {
+    flex-grow: 0;
+  }
+}
