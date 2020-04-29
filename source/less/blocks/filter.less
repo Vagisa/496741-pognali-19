@@ -23,8 +23,6 @@
 
 .filter__fieldset {
   display: flex;
-  flex-direction: column;
-  align-items: stretch;
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
@@ -35,8 +33,12 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 100%;
   border-top: 1px solid #f3c72b;
+}
+
+.filter__options {
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .filter__transport {
@@ -163,12 +165,6 @@
   padding-left: 10px;
 }
 
-.filter__options {
-  display: none;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-
 .filter__toggle:focus ~ .filter__options {
   display: flex;
 }
@@ -267,14 +263,12 @@
   }
 
   .filter__fieldset {
+    flex-direction: row;
+
     &:nth-last-child(2) {
       padding-bottom: 35px;
       border-bottom: 1px solid #f3c72b;
     }
-  }
-
-  .filter__legend {
-    flex-direction: row;
   }
 
   .filter__label {
