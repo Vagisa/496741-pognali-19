@@ -8,8 +8,6 @@
   &--popup {
     padding-top: 25px;
     background-color: #e2e5f2;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
   }
 
   &--modal {
@@ -46,6 +44,9 @@
   }
 
   &--closed {
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+
     .countries__popup {
       display: none;
     }
@@ -240,10 +241,6 @@
   }
 }
 
-.countries__parts-world-text {
-  display: none;
-}
-
 .countries__popup-tablet {
   position: relative;
   display: flex;
@@ -280,10 +277,6 @@
       }
 
       .countries__parts-world-button {
-        &::before {
-          content: "Показать все";
-        }
-
         &::after {
           content: "";
           width: 5px;
@@ -294,15 +287,23 @@
           box-shadow: -11px 0 0 0 #192144, -22px 0 0 0 #192144;
         }
       }
+
+      .countries__parts-world-text {
+        &::before {
+          content: "Показать все";
+        }
+      }
     }
 
     &--opened {
       .countries__parts-world-text {
-        display: block;
-        margin-right: 85px;
+        &::before {
+          content: "Свернуть";
+        }
       }
 
       .countries__parts-world-button {
+        display: block;
         position: relative;
 
         &::before,
@@ -356,7 +357,7 @@
   .countries__parts-world {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 410px;
     height: 86px;
     padding: 25px 0 25px 35px;
     z-index: 2;
@@ -443,6 +444,7 @@
 
     &--popup {
       padding-top: 60px;
+      height: 100%;
     }
   }
 
@@ -451,11 +453,17 @@
     margin: 0;
   }
 
+  .countries__popup {
+    &--js {
+      position: relative;
+    }
+  }
+
   .countries__popup-tablet {
     position: relative;
     top: 0;
     border-radius: 0;
-    padding: 10px;
+    padding: 0;
     margin-bottom: 64px;
   }
 
@@ -481,6 +489,7 @@
     width: 290px;
     font-size: 20px;
     line-height: 24px;
+    z-index: 2;
   }
 
   .countries__parts-world {
@@ -489,5 +498,6 @@
 
   .countries__parts-world-button {
     flex-grow: 0;
+    margin-left: auto;
   }
 }
