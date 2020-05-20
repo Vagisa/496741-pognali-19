@@ -277,6 +277,7 @@
       }
 
       .countries__parts-world-button {
+        margin-top: 35px;
         &::after {
           content: "";
           width: 5px;
@@ -359,6 +360,7 @@
     justify-content: space-between;
     width: 410px;
     height: 86px;
+    margin-top: 0;
     padding: 25px 0 25px 35px;
     z-index: 2;
   }
@@ -367,7 +369,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 245px;
+    width: 235px;
     padding: 0 35px;
     .font(20px; 24px; 700);
     text-transform: uppercase;
@@ -401,6 +403,7 @@
 
   .countries__list {
     display: flex;
+    flex-direction: column;
   }
 
   .countries__name {
@@ -482,14 +485,17 @@
   }
 
   .countries__title {
-    position: absolute;
-    top: 103px;
-    left: 80px;
-    display: flex;
-    width: 290px;
-    font-size: 20px;
-    line-height: 24px;
-    z-index: 2;
+    display: none;
+    &--popup {
+      position: absolute;
+      top: 103px;
+      left: 80px;
+      display: flex;
+      width: 290px;
+      font-size: 20px;
+      line-height: 24px;
+      z-index: 2;
+    }
   }
 
   .countries__parts-world {
