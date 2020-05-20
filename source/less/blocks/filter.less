@@ -24,7 +24,6 @@
 .filter__fieldset {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   margin: 0;
   padding: 0;
   border: none;
@@ -34,7 +33,6 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  width: 100%;
   border-top: 1px solid #f3c72b;
 }
 
@@ -219,7 +217,7 @@
   }
 
   .filter__form {
-    margin: 46px 40px 43px;
+    margin: 50px 40px 43px;
     padding: 37px 35px;
   }
 
@@ -266,11 +264,17 @@
 
   .filter__fieldset {
     flex-direction: row;
+    flex-wrap: wrap;
 
     &:nth-last-child(2) {
       padding-bottom: 35px;
       border-bottom: 1px solid #f3c72b;
     }
+  }
+
+  .filter__legend {
+    align-self: flex-start;
+    flex-shrink: 1;
   }
 
   .filter__label {
@@ -283,21 +287,23 @@
     &:nth-child(4) {
       width: 175px;
     }
+  }
 
-    .filter__level {
-      height: 44px;
-      align-self: center;
-      order: 1;
-    }
+  .filter__input {
+    font-size: 20px;
+    line-height: 20px;
+  }
 
-    .filter__input {
-      font-size: 20px;
-      line-height: 20px;
-    }
+  .filter__range {
+    flex-shrink: 0;
+    align-self: center;
+  }
 
-    .filter__range {
-      flex-shrink: 0;
-    }
+  .filter__level {
+    width: 150px;
+    height: 44px;
+    align-self: center;
+    order: 1;
   }
 
   .filter__toggle {
@@ -306,9 +312,16 @@
     .font(20px; 30px; 500);
   }
 
+  .filter__toggle-text {
+    &::after {
+      content: ":";
+    }
+  }
+
   .filter__options {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
   }
 
   .filter__toggle:focus + .filter__toggle-close {

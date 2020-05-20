@@ -142,6 +142,7 @@
 
 .procedure-steps__input {
   flex-grow: 1;
+  height: auto;
   text-align: center;
   width: 130px;
   border: none;
@@ -149,6 +150,7 @@
   .font(16px; 16px; 500);
   color: @blue;
   text-transform: uppercase;
+  background-color: transparent;
 
   &--text {
     padding-left: 10px;
@@ -434,6 +436,9 @@
     height: 81px;
     margin: 0;
     padding: 0 35px;
+    text-transform: none;
+    font-size: 24px;
+    line-height: 24px;
 
     &--next {
       width: 285px;
@@ -625,6 +630,10 @@
     &--duration {
       margin-top: 15px;
     }
+  }
+
+  .procedure-steps__unit {
+    opacity: 1;
   }
 
   .procedure-steps__input {
